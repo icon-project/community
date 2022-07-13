@@ -76,13 +76,15 @@ We use [semantic versioning](https://semver.org) and expect all releases to be t
 
 ## Testing
 
-
+We follow the [test pyramid scheme](https://martinfowler.com/articles/practical-test-pyramid.html) for testing. This includes unit tests, integration tests, and end-to-end tests.
 
 **Note:** We require that each progress report and deliverable be comprehensively tested, complete with documentation describing how to reproduce test results.
 
 ### Unit tests
 
-Functions should be tested. A testing status badge at the top of the README.md file should be included that indicates the status of automated testing after automated build. We also recommend to include the code coverage.
+Unit tests ensure that individual units of code (ie method or class) work as intended. You should have a lot more unit tests than any integration or end-to-end tests.
+
+A testing status badge at the top of the README.md file should be included that indicates the status of automated testing after automated build. We also recommend to include the code coverage.
 
 ### Integration tests
 
