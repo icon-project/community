@@ -98,12 +98,10 @@ Integration tests ensure that individual modules work together as intended. Inte
 
 End-to-end tests automate user stories and should be designed to replicate as closely as possible what the user's way of interacting with the software is. Because end-to-end tests involve many interacting components, they may behave unexpectedly. They also may take significantly longer to run than unit or integration tests. Because they are slow and difficult to maintain, we recommend only having the bare minimum end-to-end tests and primarily relying on unit and integration tests. For frontend development, we prefer [Selenium](https://www.selenium.dev) or [Puppetteer](https://pptr.dev) for webdriver UI tests.
 
-### Acceptance tests
-
 ## Deployment
 
-We prefer docker
+We prefer Docker containers to prevent issues with dependencies and versioning. 
 
 ## Security Auditing
 
-dApp code bases should be audited to minimize risk to the end user. Note that the operative word here is "minimizes," as it cannot be 100% guaranteed that a dApp will work as intended and not impact the end user negatively.
+dApp code bases are not considered complete until audited by a reputable security auditor to minimize risk to the end user. Note that the operative word here is "minimizes," as it cannot be 100% guaranteed that a dApp will work as intended and not impact the end user negatively.
