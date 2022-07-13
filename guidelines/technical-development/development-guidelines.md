@@ -1,22 +1,62 @@
+## Introduction
+
+The purpose of this document is to describe code development best practices and guidelines. We expect developers to adhere to these guidelines where applicable.
+
 ## Licensing
 
-Unless otherwise stated, the ICON Foundation requires open source code. The code must include an MIT license, Apache 2.0, or another license explicitly approved by the ICON Foundation. If you don’t know what to choose, pick the MIT license.
+Unless otherwise stated, the ICON Foundation requires open source code. The code must include an MIT license, Apache 2.0, or another license explicitly approved by the ICON Foundation. For businesses, we prefer Apache 2.0. If you don’t know what to choose, pick the MIT license.
 
-## Deliverables
+## Documentation
 
-We value high-quality open source code, but even the most performant code is of little use if it lacks proper documentation.
+We expect all of the following to be documented:
+* Classes, constructors, and functions
+  * Describe inputs/arguments
+  * Describe outputs/returns
+  * Brief narrative description
+* Architectures, algorithms, and services
+  * Extensive narrative description of how they work
+  * Diagrams where applicable
 
-We require that you document (where applicable):
+Code documentation lives in the code files, for example above a function. Narrative documentation lives outside the code files, for example a general knowledge base.
 
-API calls
-Architecture overview and individual component details
-Algorithms and protocols that are core to your project
-Any other fundamental building blocks to your technology
-Unless absolutely necessary, make the documentation public as well, ideally as part of the appropriate code repository. This will make it easier for the community to use or adapt your project.
+*** How to write good narrative documentation
 
-Note: Only focus on your own contributions. Do not write detailed explanations of already existing components, e.g. IPFS.
+**Do**
+* Keep the audience in mind.
+* Treat the audience as you would a close friend. Tell them a story.
+* Write succinctly and directly.
+* Link to other pages for glossary terms and other supplementary information.
+* Use analogy, example, and comparison to get points across.
+* Think about how pages flow from one to the next.
 
-For more information on our documentation standards, see documentation
+**Don’t**
+* Talk down to the audience.
+* Assume the audience has prior knowledge on the subject.
+* Require the audience to navigate through multiple pages to reach the important information.
+
+*** How to write good code documentation
+
+**Do**
+* Think of code documentation as a short guide on how to use a function.
+* Apply [rubberducking](https://rubberduckdebugging.com) to documentation when explaining what the function does.
+* Add a minimal code example showing how the function would be used.
+
+**Don’t**
+* Assume a vague description and type signature is sufficient.
+* Assume that the code should speak for itself.
+
+**Examples**
+* [Tensorflow's Python3 implementation of tensorflow::softmax()](https://github.com/tensorflow/tensorflow/blob/v2.9.1/tensorflow/python/ops/nn_ops.py#L3829-L3867)
+
+## Code Formatting
+
+We suggest adopting a code format style and adhering to it from project inception to maintain consistency in readability in your codebase.
+
+We recommend the following styles:
+* [Google (multiple languages)](https://google.github.io/styleguide/)
+* [Uber's style guide for Golang](https://github.com/uber-go/guide/blob/master/style.md)
+* [AirBnb’ style guide for React](https://airbnb.io/javascript/react/)
+* [PEP-8, the official style guide for Python](https://peps.python.org/pep-0008/)
 
 ## Source Code Branching
 
@@ -32,4 +72,26 @@ You may find that another source code branching pattern works better for you. Th
 
 ## Versioning
 
+We use [semantic versioning](https://semver.org) and expect all releases to be tagged.
+
 ## Testing
+
+
+
+**Note:** We require that each progress report and deliverable be comprehensively tested, complete with documentation describing how to reproduce test results.
+
+### Unit tests
+
+Functions should be tested. A testing status badge at the top of the README.md file should be included that indicates the status of automated testing after automated build. We also recommend to include the code coverage.
+
+### Integration tests
+
+We prefer dockerfiles to avoid problems with versions and dependencies.
+
+### End-to-end tests
+
+## Deployment
+
+
+## Auditing
+
