@@ -19,7 +19,7 @@ We expect all of the following to be documented:
 
 Code documentation lives in the code files, for example above a function. Narrative documentation lives outside the code files, for example a general knowledge base.
 
-*** How to write good narrative documentation
+### How to write good narrative documentation
 
 **Do**
 * Keep the audience in mind.
@@ -34,7 +34,7 @@ Code documentation lives in the code files, for example above a function. Narrat
 * Assume the audience has prior knowledge on the subject.
 * Require the audience to navigate through multiple pages to reach the important information.
 
-*** How to write good code documentation
+### How to write good code documentation
 
 **Do**
 * Think of code documentation as a short guide on how to use a function.
@@ -82,18 +82,28 @@ We follow the [test pyramid scheme](https://martinfowler.com/articles/practical-
 
 ### Unit tests
 
-Unit tests ensure that individual units of code (ie method or class) work as intended. You should have a lot more unit tests than any integration or end-to-end tests.
+Unit tests ensure that individual units of code (ie method or class) work as intended. You should have a lot more unit tests than integration or end-to-end tests.
 
-A testing status badge at the top of the README.md file should be included that indicates the status of automated testing after automated build. We also recommend to include the code coverage.
+Every logical component should be tested. Tests should consider only the expected inputs and outputs, and not the internal implementation details. You do not need to test trivial code.
+
+Unit tests should be written in isolation and run very fast so that they can be automated to run on commit. Any external dependency used by the system under test should be mocked.
+
+A testing status badge at the top of the README.md file should be included that indicates the status of automated testing after automated build. We also recommend to include a code coverage badge.
 
 ### Integration tests
 
-We prefer dockerfiles to avoid problems with versions and dependencies.
+Integration tests ensure that individual modules work together as intended. Integration tests should be hermetic. To achieve this, we recommend only testing integration testing two individual modules and mocking any external dependencies of the two modules. Every interaction between two modules should be tested for every module.
 
 ### End-to-end tests
 
+End-to-end tests automate user stories and should be designed to replicate as closely as possible what the user's way of interacting with the software is. Because end-to-end tests involve many interacting components, they may behave unexpectedly. They also may take significantly longer to run than unit or integration tests. Because they are slow and difficult to maintain, we recommend only having the bare minimum end-to-end tests and primarily relying on unit and integration tests. For frontend development, we prefer [Selenium](https://www.selenium.dev) or [Puppetteer](https://pptr.dev) for webdriver UI tests.
+
+### Acceptance tests
+
 ## Deployment
 
+We prefer docker
 
-## Auditing
+## Security Auditing
 
+dApp code bases should be audited to minimize risk to the end user. Note that the operative word here is "minimizes," as it cannot be 100% guaranteed that a dApp will work as intended and not impact the end user negatively.
