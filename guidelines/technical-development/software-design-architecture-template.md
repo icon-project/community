@@ -14,100 +14,62 @@ Here, we present two design options for such a protocol. We propose the name to 
 All variables and unclear technical terms used should be defined in this section. Please note that you do not need to pre-emptively
 list every technical term in this section. However, as you fill out this document, evaluate which terms may be unclear and add them to
 this section with a brief definition. Additionally, a collaborator on this document may add terms to this list if they find that it may
-benefit viewers of the document. The terminology list should include acronyms as well as technical words or phrases.
+benefit viewers of the document. The terminology list should include acronyms, mathematical symbols, and technical words or phrases.
 
 ### Terminology example:
 
-Term
-Definition
-Link
-CTP
-Cross-chain Transfer Protocol
-
-Message center
-Smart contract for aggregating messages and scheduling them for delivery between blockchains
-
-Service handler
-Smart contract for translating requests between utility smart contracts and message center
-
-Merkle tree accumulator
-An append-only Merkle tree that is used to store and check transaction hashes
-https://starcoin.org/en/developer/tech/accumulator/
-
-R
-Relay
-
-
-T
-Transaction
-
-
-C
-Caller of cross-chain transfer
-
-U
-Source blockchain
-
-
-V
-Sink blockchain
-
-
-S
-Smart contract
-
-Block header “k”
+| Term      | Definition |
+| ----------- | ----------- |
+| CTP      | Cross-chain Transfer Protocol       |
+| Message center   | Smart contract for aggregating messages and scheduling them for delivery between blockchains        |
+| $R_{x \rightarrow y}$   | Unidirectional relay that transfers messages from blockchain X to blockchain Y       |
+| $B_k$   | Block header at height $k$       |
 
 ## Considerations
+
 The considerations should include the assumptions that are made, and the constraints that are faced. There may be multiple different considerations. Considerations can include technical topics, user-experience topics, or other topics that the collaborators of this document view as pertinent to understanding the design selection process.
 
 ### Considerations example:
-Relay
+
+#### Relay
+
 The relay delivers messages between blockchains. It is essential to the cross-chain transfer process. In this case it is important to consider the balance between responsibilities of the user and the abilities of the user to reliably execute complex actions. The two main considerations here are that the user should be the relay or that there should be a third party that manages a relay service.
 
-Fee
+#### Fee
+
 In each step of the CTP process there are different services provided, some of which have implicit fees charged by the blockchain, and others that do not have implicit fees but may require explicitly defined fees to incentivize efficient operation.
 
 An example of an implicit fee would be a transaction that occurs on the blockchain. Most blockchains charge some fee to process a transaction.
 
 An example of a fee that may be explicitly defined would be a message delivery fee. Currently, there is no predefined cost for a relay to send a message from one blockchain to another. However, it should be considered whether a fee should be defined to incentivize the user or a third-party relay to operate efficiently with respect to time, robustness, and reliability.
-Designs
+
+## Designs
+
 This section should contain proposed solutions. Each proposed solution should have its own design, defined in bold font. The steps of the proposed solution should be laid out in full sentences and should cover all major logically likely outcomes, including corner cases. If the proposed solution’s flow branches, all cases should be clearly defined and stepped through. The steps of the proposed solution should also be written as pseudocode when applicable.
 
-Designs example:
-Cross-Chain Transfer Protocol Design A
+### Designs example:
+
+#### Cross-Chain Transfer Protocol Design A
+
 Caller  performs a cross-chain transaction  to transfer amount  from source blockchain  to sink blockchain . Relay  updates the state of blockchain  on blockchain  in smart contract representing a light node...
-Pseudocode of the cross-chain transfer protocol Design A
+##### Pseudocode of the cross-chain transfer protocol Design A
+
+```python
 def cross_chain_transfer_protocol(routes, from_address, to_address, amount):
 	lock(from_address, amount)
 	mint(routes, to_address, amount)
 	…
-Comparisons
+```
+## Comparisons
 
 Comparisons should be made between the designs laid out in the “Designs” section. Comparisons should be formatted in a table with the appropriate major design aspects represented by table columns.
-Comparisons example:
 
+### Comparisons example:
 
-Item
-Design A
-Design B
-Scalable
-MEDIUM
-- Reliance on Relay
-- Previous message
-GOOD
-Spam-proof
-MEDIUM
-- Better fee design is required
-GOOD
-Flexible
-GOOD
-- Extend by call service
-GOOD
-Decentralized
-MEDIUM
-- Reliance on Relay
-GOOD
+| Item      | Design A | Design B |
+| ----------- | ----------- | ----------- |
+| Scalability      | Medium <br> - Reliance on Relay | Good |
+| Flexibility   | Poor <br> - Rigid connections       | Good |
 
 ## Discussions
 
