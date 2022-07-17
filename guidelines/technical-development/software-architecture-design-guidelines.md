@@ -20,7 +20,7 @@ If you are fixing a bug or making minor changes, you do not need a design docume
 
 ## What should be in a software architecture design document?
 
-The following subsections should all be declared in a software architecture design document. We provide a template document at software-architecture-design-template.md.
+The following subsections should all be declared in a software architecture design document. We provide a template document at [software-architecture-design-template.md](https://github.com/icon-project/community/blob/6-architecture-design-guidelines/guidelines/technical-development/software-design-architecture-template.md).
 
 ### Introduction
 
