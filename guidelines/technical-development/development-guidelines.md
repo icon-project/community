@@ -68,7 +68,19 @@ We suggest to use [Feature Branching](https://martinfowler.com/bliki/FeatureBran
 
 To minimize divergence between main branch and feature branches, features should be small enough to be able to merge back to main branch quickly. Features should also be small enough that the pull request to be reviewed is not burdensome to the reviewer. Large features can be broken into many smaller features.
 
+For working within a given repository, please follow the branching conventions of that repository.
+
 You may find that another source code branching pattern works better for you. The important thing is that development is tracked publicly via Git issues and pull requests.
+
+### Example
+
+__Issue__: "Architecture Diagram Guidelines #6"
+
+__Branch name__: "feature/architecture-diagram-guidelines"
+
+__Pull Request header__: "feature/architecture-diagram-guidelines" -> "main" => "#6 Create architecture diagram guidelines #7"
+
+_Note that the first number in the Pull Request header references the issue number. The second number is associated with the Pull Request itself_
 
 ## Versioning
 
