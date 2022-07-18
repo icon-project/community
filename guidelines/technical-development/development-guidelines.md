@@ -76,7 +76,7 @@ You may find that another source code branching pattern works better for you. Th
 
 __Issue__: "Architecture Diagram Guidelines #6"
 
-__Branch Name__: "feature/architecture-diagram-guidelines"
+__Branch name__: "feature/architecture-diagram-guidelines"
 
 __Pull Request header__: "feature/architecture-diagram-guidelines" -> "main" => "#6 Create architecture diagram guidelines #7"
 
