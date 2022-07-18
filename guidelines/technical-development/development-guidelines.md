@@ -86,6 +86,13 @@ _Note that the first number in the Pull Request header references the issue numb
 
 We use [semantic versioning](https://semver.org) and expect all releases to be tagged.
 
+| Version state | Notation | Explanation |
+| ------------- | -------- | ----------- |
+| Alpha | -alpha | Testing phase. Sandbox usage |
+| Beta | -beta | Testing phase. Real-world usage |
+| Release candidate | -rc | Pre-release phase. Real-world usage. No breaking issues expected. Typically this is optional |
+| Release | _No extra notation_ | Release / ready phase. Real-world usage. No further changes expected to this version |
+
 ## Testing
 
 We follow the [test pyramid scheme](https://martinfowler.com/articles/practical-test-pyramid.html) for testing. This includes unit tests, integration tests, and end-to-end tests.
