@@ -48,7 +48,11 @@ defined in bold font. It should be clear which design was selected to move forwa
 
 The steps of the proposed solution should be laid out in full sentences and should cover all major logically likely outcomes, including corner cases. If the proposed solution’s flow branches, all cases should be clearly defined and stepped through. The steps of the proposed solution should also be written as pseudocode where applicable.
 
+### Diagrams
+
 Each proposed solution should have an associated architecture diagram. We recommend going through the [C4 model checklist](https://c4model.com/review/) when creating a diagram.
+
+We do not specify diagram tooling or notation preferences, as that is left to the architect. However, in accordance with the [C4 model](https://c4model.com/#CoreDiagrams), we do require that diagrams follow a common set of abstractions. For more information, see software-design-architecture-diagramming.md
 
 ### Comparisons
 
