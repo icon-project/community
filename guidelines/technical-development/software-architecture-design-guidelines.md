@@ -11,7 +11,7 @@ We define software architecture as the important decisions to be made regarding 
 
 The purpose of a software architecture design document is to explicitly declare why a body of code works in the way it does.
 This provides a baseline to align all stakeholders in understanding the internal workings of how the software works, what was considered,
-and what important decisions were made.
+and what important decisions were made. It also prevents multiple teams from independently building out the same features.
 
 ## When is a software architecture design document needed?
 
@@ -44,9 +44,11 @@ understanding the design selection process.
 ### Designs
 
 The designs section should contain proposed solutions. There may be one or more proposed solutions. Each proposed solution should have its own design,
-defined in bold font. It should be clear which design was selected to move forward with implementation. The steps of the proposed solution should be
-laid out in full sentences and should cover all major logically likely outcomes, including corner cases. If the proposed solution’s flow branches,
-all cases should be clearly defined and stepped through. The steps of the proposed solution should also be written as pseudocode where applicable.
+defined in bold font. It should be clear which design was selected to move forward with implementation.
+
+The steps of the proposed solution should be laid out in full sentences and should cover all major logically likely outcomes, including corner cases. If the proposed solution’s flow branches, all cases should be clearly defined and stepped through. The steps of the proposed solution should also be written as pseudocode where applicable.
+
+Each proposed solution should have an associated architecture diagram. We recommend going through the [C4 model checklist](https://c4model.com/review/) when creating a diagram.
 
 ### Comparisons
 
