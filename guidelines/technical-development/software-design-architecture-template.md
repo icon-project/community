@@ -60,6 +60,9 @@ def cross_chain_transfer_protocol(routes, from_address, to_address, amount):
 	mint(routes, to_address, amount)
 	…
 ```
+
+<img src="./ctp-diagram-example.svg">
+
 ## Comparisons
 
 Comparisons should be made between the designs laid out in the “Designs” section. Comparisons should be formatted in a table with the appropriate major design aspects represented by table columns.
