@@ -61,7 +61,7 @@ def cross_chain_transfer_protocol(routes, from_address, to_address, amount):
 	…
 ```
 
-<img src="./ctp-diagram-example.svg">
+<img src="./Whiteboard - Example C4 System Context Diagram.svg">
 
 ## Comparisons
 
