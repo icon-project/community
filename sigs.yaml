@@ -1,0 +1,251 @@
+sigs:
+- dir: sig-contributor-experience
+  name: Contributor experience
+  mission_statement: >
+    Covers all aspects of BTP, BTP integration into specific execution environments,
+    cross-chain message specifications, cross-chain message hubs, service handlers,
+    message verifiers, message brokers, BTP-related RPC specifications, and client
+    libraries
+
+  charter_link: charter.md
+  label: contributor-experience
+  leadership:
+    chairs:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+    tech_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+  meetings:
+  - description: Regular SIG Meeting
+    day: Monday
+    time: "1:00"
+    tz: ET (Eastern Time)
+    frequency: biweekly
+    url: https://zoom.us/my/btp
+    archive_url: https://goo.gl/xxxxx
+    recordings_url: https://www.youtube.com/playlist?list=xxxxx
+  contact:
+    discord:
+      name: sig-btp
+      url: https://test.com
+    mailing_list: https://groups.google.com/forum/#!forum/icon-sig-btp
+    teams:
+    - name: sig-btp-btp-reviews
+      description: BTP Test Test
+    liaison:
+      github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  subprojects:
+  - name: btp-specification
+    owners:
+    - https://raw.githubusercontent.com/icon-project/btp/master/OWNERS
+- dir: sig-docs
+  name: Docs
+  mission_statement: >
+    Covers all aspects of ICON docs
+
+  charter_link: charter.md
+  label: docs
+  leadership:
+    chairs:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+    tech_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+  meetings:
+  - description: Regular SIG Meeting
+    day: Monday
+    time: "1:00"
+    tz: ET (Eastern Time)
+    frequency: biweekly
+    url: https://zoom.us/my/btp
+    archive_url: https://goo.gl/xxxxx
+    recordings_url: https://www.youtube.com/playlist?list=xxxxx
+  contact:
+    discord:
+      name: sig-btp
+      url: https://test.com
+    mailing_list: https://groups.google.com/forum/#!forum/icon-sig-btp
+    teams:
+    - name: sig-docs-docs-reviews
+      description: Docs Test
+    liaison:
+      github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  subprojects:
+  - name: docs-specification
+    owners:
+    - https://raw.githubusercontent.com/icon-project/btp/master/OWNERS
+- dir: sig-interoperability
+  name: Interoperability
+  mission_statement: >
+    Covers all aspects of BTP
+
+  charter_link: charter.md
+  label: interoperability
+  leadership:
+    chairs:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+    tech_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+  meetings:
+  - description: Regular SIG Meeting
+    day: Monday
+    time: "1:00"
+    tz: ET (Eastern Time)
+    frequency: biweekly
+    url: https://zoom.us/my/btp
+    archive_url: https://goo.gl/xxxxx
+    recordings_url: https://www.youtube.com/playlist?list=xxxxx
+  contact:
+    discord:
+      name: sig-btp
+      url: https://test.com
+    mailing_list: https://groups.google.com/forum/#!forum/icon-sig-btp
+    teams:
+    - name: sig-btp-btp-reviews
+      description: BTP Test
+    liaison:
+      github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  subprojects:
+  - name: btp-specification
+    owners:
+    - https://raw.githubusercontent.com/icon-project/btp/master/OWNERS
+- dir: sig-testing
+  name: Testing
+  mission_statement: >
+    Covers all aspects of ICON testing
+
+  charter_link: charter.md
+  label: testing
+  leadership:
+    chairs:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+    tech_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+      company: ICON Foundation
+  meetings:
+  - description: Regular SIG Meeting
+    day: Monday
+    time: "1:00"
+    tz: ET (Eastern Time)
+    frequency: biweekly
+    url: https://zoom.us/my/btp
+    archive_url: https://goo.gl/xxxxx
+    recordings_url: https://www.youtube.com/playlist?list=xxxxx
+  contact:
+    discord:
+      name: sig-btp
+      url: https://test.com
+    mailing_list: https://groups.google.com/forum/#!forum/icon-sig-btp
+    teams:
+    - name: sig-docs-docs-reviews
+      description: Docs Test
+    liaison:
+      github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  subprojects:
+  - name: docs-specification
+    owners:
+    - https://raw.githubusercontent.com/icon-project/btp/master/OWNERS
+workinggroups: []
+usergroups: []
+committees:
+- dir: committee-code-of-conduct
+  name: Code of Conduct
+  mission_statement: >
+    The ICON Code of Conduct Committee (CoCC) is the body that is responsible for
+    enforcing and maintaining the ICON Code of Conduct.
+
+  charter_link: charter.md
+  label: code-of-conduct
+  leadership:
+    chairs:
+    - github: han-so1omon
+      name: Eric Solomon
+      company: ICON Foundation
+    emeritus_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  meetings: []
+  contact:
+    discord:
+      name: code-of-conduct
+      url: code-of-conduct
+    private_mailing_list: conduct@icon.foundation
+    teams:
+    - name: code-of-conduct-committee
+      description: General Discussion
+    liaison:
+      github: han-so1omon
+      name: Eric Solomon
+- dir: committee-security-response
+  name: Security Response
+  mission_statement: >
+    The ICON Code of Conduct Committee (CoCC) is the body that is responsible for
+    enforcing and maintaining the ICON Code of Conduct.
+
+  charter_link: charter.md
+  label: security-response
+  leadership:
+    chairs:
+    - github: han-so1omon
+      name: Eric Solomon
+      company: ICON Foundation
+    emeritus_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  meetings: []
+  contact:
+    discord:
+      name: code-of-conduct
+      url: code-of-conduct
+    private_mailing_list: conduct@icon.foundation
+    teams:
+    - name: code-of-conduct-committee
+      description: General Discussion
+    liaison:
+      github: han-so1omon
+      name: Eric Solomon
+- dir: committee-technical-steering
+  name: Technical Steering
+  mission_statement: >
+    The ICON Code of Conduct Committee (CoCC) is the body that is responsible for
+    enforcing and maintaining the ICON Code of Conduct.
+
+  charter_link: charter.md
+  label: technical-steering
+  leadership:
+    chairs:
+    - github: han-so1omon
+      name: Eric Solomon
+      company: ICON Foundation
+    emeritus_leads:
+    - github: Cyrus_Vorwald
+      name: Cyrus Vorwald
+  meetings: []
+  contact:
+    discord:
+      name: code-of-conduct
+      url: code-of-conduct
+    private_mailing_list: conduct@icon.foundation
+    teams:
+    - name: code-of-conduct-committee
+      description: General Discussion
+    liaison:
+      github: han-so1omon
+      name: Eric Solomon

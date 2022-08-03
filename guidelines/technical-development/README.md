@@ -1,0 +1,1 @@
+This directory contains the guidlines that must be followed for technical projects managed by the ICON git organization
