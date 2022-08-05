@@ -8,9 +8,15 @@ This repository is currently in the early stages of development and subject to c
 
 ### Multiline
 
+Adding lines here
+
 {/* 
   TODO: why arent any issues being created
   labels: enhancement, help wanted
   assignees: CyrusVorwald-ICON
   milestone: 1
 */}
+
+### Notes
+
+It seems that you cannot edit issues and that having a TODO in the same lines of code as the last build results in no changes.
