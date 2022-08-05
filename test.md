@@ -14,8 +14,12 @@
   milestone: test
 */}
 
-{/* TODO: Hopefully this comment turns into a todo issue */}
+{/* TODO(CyrusVorwald): Create a single line issue that specifies the assignee */}
+{/* TODO: Create a single line issue with another label labels: feature */}
+{/* TODO: Create a single line issue with a milestone milestones: test */}
 
 <!---
-TODO: Maybe html is the only way
+TODO: Maybe html is the only way to multiline
+labels: TODO,feature,bug
+milestone: test
 -->
