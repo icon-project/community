@@ -7,8 +7,8 @@
 ### Multiline
 
 {/* 
-  TODO: multiline issue
-  This is my issue title: **{{ title }}**\n\nThis is my issue body: **{{ body }}**\n\nThis is my code URL: **{{ url }}**\n\nThis is my snippet:\n\n{{ snippet }}
+  TODO: multiline issue 2
+  body: Information about the issue
   labels: enhancement, help wanted
   assignees: CyrusVorwald-ICON
   milestone: 1
