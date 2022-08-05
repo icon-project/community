@@ -9,8 +9,7 @@ This repository is currently in the early stages of development and subject to c
 ### Multiline
 
 {/* 
-  TODO: multiline issue header
-  body: Information about the issue
+  TODO: why arent any issues being created
   labels: enhancement, help wanted
   assignees: CyrusVorwald-ICON
   milestone: 1
