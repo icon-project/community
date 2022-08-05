@@ -4,27 +4,20 @@ This repository is currently in the early stages of development and subject to c
 
 ### Inline
 
-{/* TODO(header): Create a single line issue that specifies the assignee */}
+{/* TODO(header): Create an inline issue labels: enhancement, help wanted assignees: CyrusVorwald-ICON milestone: 1  */}
+
+{/* TODO(header): Create an inline issue labels: enhancement, help wanted assignees: CyrusVorwald-ICON milestone: 1  */}
 
 ### Multiline
 
 Adding lines here
 
 {/* 
-  TODO: why arent any issues being created
+  TODO: Create a multiline issue
   labels: enhancement, help wanted
   assignees: CyrusVorwald-ICON
   milestone: 1
 */}
-
-
-{/* 
-  TODO: why arent any issues being created
-  labels: enhancement, help wanted
-  assignees: CyrusVorwald-ICON
-  milestone: 1
-*/}
-
 
 ### Notes
 
