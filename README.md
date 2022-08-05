@@ -22,6 +22,11 @@ A SIG can have its own policy for contribution, described in a README or CONTRIB
 
 If you want to edit details about a SIG (e.g. its weekly meeting time or its leads), please follow [these instructions](generator/README.md) that detail how our docs are auto-generated.
 
+### Governance
+
+This section describes ICON's organizational structure. See [the governance document](/GOVERNANCE.md) for more information.
+
+
 ### Guidelines
 
 This section includes guidelines for assisting collaborators and grantees to understand how to participate in the ICON ecosystem. Guidelines must be followed as specified by grant agreements or other pertinent contracts. This section maintains guidelines for topics including the following:

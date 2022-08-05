@@ -1,3 +1,5 @@
+# Software Development Guidelines
+
 ## Introduction
 
 The purpose of this document is to describe code development best practices and guidelines. We expect developers to adhere to these guidelines where applicable.
@@ -5,6 +7,10 @@ The purpose of this document is to describe code development best practices and 
 ## Licensing
 
 Unless otherwise stated, the ICON Foundation requires open source code. The code must include an MIT license, Apache 2.0, or another license explicitly approved by the ICON Foundation. For businesses, we prefer Apache 2.0. If you don’t know what to choose, pick the MIT license.
+
+## Repository hosting and status
+
+We prefer that code repositories be hosted on Github. All issue tracking should be made public. Rare exceptions may be made for security vulnerabilities or other sensitive matters. Public code repositories should be pushed to regularly.
 
 ## Documentation
 
@@ -66,7 +72,7 @@ We suggest to use [Feature Branching](https://martinfowler.com/bliki/FeatureBran
 3. Submit a pull request to merge back to the main branch upon completion of the feature or fix.
 4. If possible, assign a reviewer to review the code of the pull request.
 
-To minimize divergence between main branch and feature branches, features should be small enough to be able to merge back to main branch quickly. Features should also be small enough that the pull request to be reviewed is not burdensome to the reviewer. Large features can be broken into many smaller features.
+To minimize divergence between main branch and feature branches, features should be atomic and small enough to be able to merge back to main branch quickly. Features should also be small enough that the pull request to be reviewed is not burdensome to the reviewer. Large features can be broken into many smaller features.
 
 For working within a given repository, please follow the branching conventions of that repository.
 
@@ -117,9 +123,20 @@ Integration tests ensure that individual modules work together as intended. Inte
 
 End-to-end tests automate user stories and should be designed to replicate as closely as possible what the user's way of interacting with the software is. Because end-to-end tests involve many interacting components, they may behave unexpectedly. They also may take significantly longer to run than unit or integration tests. Because they are slow and difficult to maintain, we recommend only having the bare minimum end-to-end tests and primarily relying on unit and integration tests. For frontend development, we prefer [Selenium](https://www.selenium.dev) or [Puppetteer](https://pptr.dev) for webdriver UI tests.
 
+## Definition of Done
+
+Feature addition code should be considered done **only after completing the following:**
+
+- Code is [properly documented](#documentation)
+- [All tests](#testing) are passed
+- Code is reviewed and approved
+- Functional acceptance criteria are met
+- Non-functional acceptance criteria are met
+- Code is deployed to a specified environment
+
 ## Deployment
 
-We prefer Docker containers to prevent issues with dependencies and versioning. 
+We prefer Docker containers to prevent issues with dependencies and versioning.
 
 ## Security Auditing
 
