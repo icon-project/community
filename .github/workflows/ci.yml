@@ -1,5 +1,12 @@
 name: "Continuous Integration"
-on: ["push"]
+on: 
+    push:
+        branches: [ main ]
+        paths-ignore:
+          - 'todos-to-issues.md'
+    pull_request:
+        paths-ignore:
+          - 'todos-to-issues.md'
 jobs:
     build:
         runs-on: "ubuntu-latest"
