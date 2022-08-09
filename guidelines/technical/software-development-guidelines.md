@@ -78,6 +78,10 @@ For working within a given repository, please follow the branching conventions o
 
 You may find that another source code branching pattern works better for you. The important thing is that development is tracked publicly via Git issues and pull requests.
 
+### Commit naming convention
+
+We use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) naming convention.
+
 ### Example
 
 __Issue__: "Architecture Diagram Guidelines #6"
