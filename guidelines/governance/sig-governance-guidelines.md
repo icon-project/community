@@ -19,12 +19,22 @@ The purpose of this document is to describe special interest group (SIG) best pr
 - All SIGs should provide roadmap or status updates to the community at least once a quarter.
 - All publicly available meetings should have their agenda posted at least 24 hours before the meeting start time.
 
-## Roles
+## Leadership roles
 
-{/* 
-  TODO: Establish roles and responsibilities of SIG members.
-  assignees: CyrusVorwald-ICON
-*/}
+### Chair
+
+- Define and set SIG priorities
+- Drive SIG direction
+- Organize and facilitate meetings
+- Own CONTRIBUTING.md file and contributor onboarding experience
+- Provide monthly community updates
+- Ensure that the SIG adheres to technical and communication best practices and guidelines
+- Coordinate cross-functional 
+
+### Technical lead
+
+- Triage issues
+- Optimize software development lifecycle, process, and workflow
 
 ## Project management
 
