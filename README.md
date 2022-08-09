@@ -4,6 +4,11 @@ This is the repository for the organization of certain resources for the technic
 
 ## Structure
 
+### Governance
+
+This section describes ICON's organizational structure. See [the governance document](/GOVERNANCE.md) for more information.
+
+
 ### Guidelines
 
 This section includes guidelines for assisting collaborators and grantees to understand how to participate in the ICON ecosystem. Guidelines must be followed as specified by grant agreements or other pertinent contracts. This section maintains guidelines for topics including the following:
