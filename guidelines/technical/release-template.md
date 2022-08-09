@@ -1,6 +1,6 @@
 # Release Template
 
-Adherence to this template is required for any of the following code changes to ICON infrastructure:
+Adherence to this template is recommended for any project on ICON, and required for any of the following code changes to ICON infrastructure:
 
 - New and nontrivial features
 - Nontrivial modifications to existing features
