@@ -1,5 +1,10 @@
 # Release Template
 
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+      NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+      "OPTIONAL" in this document are to be interpreted as described in
+      [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
 Adherence to this template is recommended for any project on ICON, and required for any of the following code changes to ICON infrastructure:
 
 - New and nontrivial features

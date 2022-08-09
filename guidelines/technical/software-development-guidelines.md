@@ -1,20 +1,25 @@
 # Software Development Guidelines
 
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+      NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+      "OPTIONAL" in this document are to be interpreted as described in
+      [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
 ## Introduction
 
 The purpose of this document is to describe code development best practices and guidelines. We expect developers to adhere to these guidelines where applicable.
 
 ## Licensing
 
-Unless otherwise stated, the ICON Foundation requires open source code. The code must include an MIT license, Apache 2.0, or another license explicitly approved by the ICON Foundation. For businesses, we prefer Apache 2.0. If you don’t know what to choose, pick the MIT license.
+Unless otherwise stated, the ICON Foundation requires open source code. The code must include an MIT license, Apache 2.0, or another license explicitly approved by the ICON Foundation. Businesses should use the Apache 2.0 license. If you don’t know what to choose, pick the MIT license.
 
 ## Repository hosting and status
 
-We prefer that code repositories be hosted on Github. All issue tracking should be made public. Rare exceptions may be made for security vulnerabilities or other sensitive matters. Public code repositories should be pushed to regularly.
+Code repositories should be hosted on Github. Issue tracking must be made public. Rare exceptions may be made for security vulnerabilities or other sensitive matters. Public code repositories should be pushed to regularly.
 
 ## Documentation
 
-We expect all of the following to be documented:
+All of the following must be documented:
 * Classes, constructors, and functions
   * Describe inputs/arguments
   * Describe outputs/returns
@@ -56,9 +61,10 @@ Code documentation lives in the code files, for example above a function. Narrat
 
 ## Code Formatting
 
-We suggest adopting a code format style and adhering to it from project inception to maintain consistency in readability in your codebase.
+Projects should adopt a code format style and adhere to it from project inception to maintain consistency in readability in the codebase.
 
-We recommend the following styles:
+Projects should use one of the following styles:
+
 * [Google (multiple languages)](https://google.github.io/styleguide/)
 * [Uber's style guide for Golang](https://github.com/uber-go/guide/blob/master/style.md)
 * [AirBnb’ style guide for React](https://airbnb.io/javascript/react/)
@@ -66,7 +72,7 @@ We recommend the following styles:
 
 ## Source Code Branching
 
-We suggest to use [Feature Branching](https://martinfowler.com/bliki/FeatureBranch.html). The developer should follow these steps:
+Projects should [Feature Branching](https://martinfowler.com/bliki/FeatureBranch.html). Developers should follow these steps when branching:
 1. Create a new Git issue when there is a feature or fix to be written that clearly defines what is needed and why. The Git issue is appropriately labeled, assigned, and given a milestone.
 2. Create a new branch referencing that Git issue to develop the feature or fix.
 3. Submit a pull request to merge back to the main branch upon completion of the feature or fix.
