@@ -66,6 +66,12 @@ def cross_chain_transfer_protocol(routes, from_address, to_address, amount):
 ##### Cross-Chain Transfer Protocol System Context Diagram
 <img src="/assets/guidelines/architecture-diagrams/Whiteboard - Example C4 System Context Diagram.svg" width="300">
 
+##### Cross-Chain Transfer Protocol Container Diagram
+<img src="/assets/guidelines/architecture-diagrams/Whiteboard-Example-C4-Container-Diagram.svg" width="600">
+
+##### Cross-Chain Transfer Protocol Component Diagram
+<img src="/assets/guidelines/architecture-diagrams/Whiteboard - Example C4 Component Diagram.svg" width="600">
+
 ## Comparisons
 
 Comparisons should be made between the designs laid out in the “Designs” section. Comparisons should be formatted in a table with the appropriate major design aspects represented by table columns.
