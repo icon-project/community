@@ -9,9 +9,7 @@ Currently this mostly entails the ICON Bridge project.
 
 ## Meetings
 
-Regular SIG Meeting: Mondays at 9:00 PT (Pacific Time) (biweekly). Convert to your timezone.
-Meeting notes and Agenda.
-Meeting recordings.
+{/* TODO: List public meetings here assignees: CyrusVorwald-ICON */}
 
 ## Projects
 
