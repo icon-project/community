@@ -1,8 +1,8 @@
 # SIG Interoperability Charter
 
-| Status        | (Proposed / Accepted / Rejected / Archived)       |
+| Status        | (Accepted)       |
 :-------------- |:---------------------------------------------------- |
-| **PR Link**     | [PR #](https://github.com/icon-project/community/pulls/#) (update when you have PR link)|
+| **PR Link**     | [PR 43](https://github.com/icon-project/community/pull/43)|
 | **Author(s)** | Cyrus Vorwald (cyrus@icon.foundation) |
 | **Sponsor**   | Cyrus Vorwald (cyrus@icon.foundation) |
 | **Updated**   | 08 August 2022 |
