@@ -7,7 +7,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
 
 ## Introduction
 
-The purpose of this document is to describe code development best practices and guidelines. We expect developers to adhere to these guidelines where applicable.
+The purpose of this document is to describe code development best practices and guidelines. We expect developers to adhere to these guidelines where applicable. Deviations from these guidelines should be explicitly stated.
 
 ## Licensing
 
@@ -61,9 +61,9 @@ Code documentation lives in the code files, for example above a function. Narrat
 
 ## Code Formatting
 
-Projects should adopt a code format style and adhere to it from project inception to maintain consistency in readability in the codebase.
+Projects should adopt a code format style and adhere to it from project inception to maintain consistency in readability in the codebase. The adopted code format style should be explicitly stated somewhere in the project, such as the CONTRIBUTING.md file.
 
-Projects should use one of the following styles:
+We recommend using one of the following styles:
 
 * [Google (multiple languages)](https://google.github.io/styleguide/)
 * [Uber's style guide for Golang](https://github.com/uber-go/guide/blob/master/style.md)
@@ -72,7 +72,9 @@ Projects should use one of the following styles:
 
 ## Source Code Branching
 
-Projects should [Feature Branching](https://martinfowler.com/bliki/FeatureBranch.html). Developers should follow these steps when branching:
+Projects should adhere to a well-formed source code branching pattern. Projects should pull request submission, review, and approval process should be explicitly stated somewhere in the project, such as the CONTRIBUTING.md file.
+
+We recommend using [Feature Branching](https://martinfowler.com/bliki/FeatureBranch.html). In this pattern, developers should follow these steps when branching:
 1. Create a new Git issue when there is a feature or fix to be written that clearly defines what is needed and why. The Git issue is appropriately labeled, assigned, and given a milestone.
 2. Create a new branch referencing that Git issue to develop the feature or fix.
 3. Submit a pull request to merge back to the main branch upon completion of the feature or fix.
@@ -102,12 +104,16 @@ _Note that the first number in the Pull Request header references the issue numb
 
 We use [semantic versioning](https://semver.org) and expect all releases to be tagged.
 
+We sometimes use pre-release labels, such as:
+
 | Version state | Notation | Explanation |
 | ------------- | -------- | ----------- |
 | Alpha | -alpha | Testing phase. Sandbox usage |
 | Beta | -beta | Testing phase. Real-world usage |
 | Release candidate | -rc | Pre-release phase. Real-world usage. No breaking issues expected. Typically this is optional |
 | Release | _No extra notation_ | Release / ready phase. Real-world usage. No further changes expected to this version |
+
+You may find that another versioning convention works better for you. The important thing is that releases are clearly and consistently tagged. 
 
 ## Testing
 
