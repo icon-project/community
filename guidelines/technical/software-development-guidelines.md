@@ -125,6 +125,8 @@ We adopt our commit message format from [conventional commits](https://www.conve
 <footer>
 ```
 
+Commit messages should use the [imperative mood](https://web.mit.edu/course/21/21.guide/m-impera.htm).
+
 ### Types
 
 - **build**: Changes that affect the build system or external dependencies
@@ -147,6 +149,16 @@ A release should only increase either SemVer major, SemVer minor, or SemVer patc
 A release that contains one or more breaking changes increases SemVer major.<br>
 A release that contains one or more `feat` commits increases SemVer minor.<br>
 A release that contains one or more `fix` commits increases SemVer patch.
+
+### Body
+
+The body should include the motivation for the change and contrast this with previous behavior.
+
+### Footer
+The footer should contain any information about **Breaking Changes** and is also the place to
+reference GitHub issues that this commit **Closes**.
+
+**Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
 
 ### Examples
 
