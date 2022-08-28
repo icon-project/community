@@ -86,10 +86,6 @@ For working within a given repository, please follow the branching conventions o
 
 You may find that another source code branching pattern works better for you. The important thing is that development is tracked publicly via Git issues and pull requests.
 
-### Commit naming convention
-
-We use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) naming convention.
-
 ### Example
 
 __Issue__: "Architecture Diagram Guidelines #6"
@@ -104,16 +100,72 @@ _Note that the first number in the Pull Request header references the issue numb
 
 We use [semantic versioning](https://semver.org) and expect all releases to be tagged.
 
-We sometimes use pre-release labels, such as:
+We sometimes use pre-release labels to indicate that a version is unstable and might not satisfy the intended compatibility requirements. The pre-release labels we use include:
 
 | Version state | Notation | Explanation |
 | ------------- | -------- | ----------- |
-| Alpha | -alpha | Testing phase. Sandbox usage |
-| Beta | -beta | Testing phase. Real-world usage |
-| Release candidate | -rc | Pre-release phase. Real-world usage. No breaking issues expected. Typically this is optional |
+| Alpha | -alpha | Testing phase. Sandbox usage. Breaking issues expected |
+| Beta | -beta | Testing phase. Real-world usage. Breaking issues expected |
+| Release candidate | -rc | Pre-release phase. Real-world usage. Breaking issues may be expected but are not identified |
 | Release | _No extra notation_ | Release / ready phase. Real-world usage. No further changes expected to this version |
 
 You may find that another versioning convention works better for you. The important thing is that releases are clearly and consistently tagged. 
+
+## Commit Messages
+
+We recommend to squash the commit history of a short-lived branch when merging to a long-lived branch.
+
+We adopt our commit message format from [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Commits MUST follow this format because it makes commit history easy to understand.
+
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+### Types
+
+- **build**: Changes that affect the build system or external dependencies
+- **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
+- **ci**: Changes to CI configuration files and scripts
+- **docs**: Changes to the documentation
+- **feat**: A new feature
+- **fix**: A bug fix
+- **perf**: A code change that improves performance
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **revert**: Commit that reverts a previous commit
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+- **test**: Adding missing or correcting existing tests
+
+#### Version bumps
+
+Breaking changes append `!` to the type.
+
+A release should only increase either SemVer major, SemVer minor, or SemVer patch. The SemVer number that gets increased by a release should only ever increase by 1.<br>
+A release that contains one or more breaking changes increases SemVer major.<br>
+A release that contains one or more `feat` commits increases SemVer minor.<br>
+A release that contains one or more `fix` commits increases SemVer patch.
+
+### Examples
+
+```
+fix!(relay): fetch out of sync block
+
+Receiver no longer assumes block confirmation occurs on a strict interval.
+
+Closes #322
+BREAKING CHANGE: Breaks client.PollingInterval
+```
+
+Reverts state the commit hash to be reverted in the commit message body.
+
+```
+revert(relay): fetch out of sync block
+
+This reverts commit <hash>.
+```
 
 ## Testing
 
