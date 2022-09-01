@@ -86,6 +86,10 @@ For working within a given repository, please follow the branching conventions o
 
 You may find that another source code branching pattern works better for you. The important thing is that development is tracked publicly via Git issues and pull requests.
 
+### Branch protection
+
+We recommend protecting long lived branches such that all changes require at least one reviewer and one approver. It may be the case that this requirement is too restrictive if changes take too long to get reviewed. For example, if a typo is being fixed, it probably doesn't need a review or approval. The [ship/show/ask](https://martinfowler.com/articles/ship-show-ask.html) methodology decreases restrictions so that changes to mainline are not always blocked pending review, but increases instability risk because it is up to the author to request for review and approval. For more information on code reviews, see [code reviews](#code-reviews).
+
 ### Example
 
 __Issue__: "Architecture Diagram Guidelines #6"
@@ -152,7 +156,7 @@ A release that contains one or more `fix` commits increases SemVer patch.
 
 ### Body
 
-The body should include the motivation for the change and contrast this with previous behavior.
+The purpose of the body is to provide context and relevant information for reviewers and future readers. The body should include the motivation for the change and contrast this with previous behavior.
 
 ### Footer
 The footer should contain any information about **Breaking Changes** and is also the place to
@@ -203,13 +207,40 @@ Integration tests ensure that individual modules work together as intended. Inte
 
 End-to-end tests automate user stories and should be designed to replicate as closely as possible what the user's way of interacting with the software is. Because end-to-end tests involve many interacting components, they may behave unexpectedly. They also may take significantly longer to run than unit or integration tests. Because they are slow and difficult to maintain, we recommend only having the bare minimum end-to-end tests and primarily relying on unit and integration tests. For frontend development, we prefer [Selenium](https://www.selenium.dev) or [Puppetteer](https://pptr.dev) for webdriver UI tests.
 
+## Code reviews
+
+Code reviews involve having another developer review code changes for the purpose of improving code health.
+
+### What to look for
+
+#### Style
+
+Although CI automates away most style checks, the code review is one of the last quality gates before code gets merged into mainline.
+Sometimes CI doesn't pick up on everything. The reviewer should check that the code is styled consistently with the rest of the project.
+
+#### Functionality
+
+Code changes should integrate well with the rest of the code base. They should logically flow and work as the author intends. The functionality should be properly tested and consider potential vulnerabilities and corner cases.
+
+#### Documentation
+
+The reviewer should ensure that the code is documented in accordance with the [documentation guidelines](#documentation) and the project-specific guidelines.
+
+#### Complexity
+
+Code changes should be as small and as simple as possible. The reviewer should consider whether the changes can quickly be understood, the likelihood that the changes introduce bugs when being called, whether the code is actually needed, and whether the code is over-engineering.
+
+### How to review code
+
+Reviewers should aim to improve code quality, but not so prohibitively that it discourages changes from being submitted. If the author can demonstrate that their changes are equally valid to a suggested alternative, the author's preference should be accepted.
+
 ## Definition of Done
 
 Feature addition code should be considered done **only after completing the following:**
 
 - Code is [properly documented](#documentation)
 - [All tests](#testing) are passed
-- Code is reviewed and approved
+- Code is [reviewed](#code-reviews) and approved
 - Functional acceptance criteria are met
 - Non-functional acceptance criteria are met
 - Code is deployed to a specified environment
