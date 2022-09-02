@@ -9,6 +9,37 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
 
 The purpose of this document is to describe code development best practices and guidelines. We expect developers to adhere to these guidelines where applicable. Deviations from these guidelines should be explicitly stated.
 
+## Table Of Contents
+
+[Licensing](#licensing)
+
+[Repository hosting and status](#repository-hosting-and-status)
+
+* [Documentation](#documentation)
+  * [How to write good narrative documentation](#how-to-write-good-narrative-documentation)
+  * [How to write good code documentation](#how-to-write-good-code-documentation)
+
+* [Code formatting](#code-formatting)
+
+* [Source code branching](#source-code-branching)
+
+* [Versioning](#commit-messages)
+
+* [Commit messages](#commit-messages)
+
+* [Testing](#testing)
+  * [Unit tests](#unit-tests)
+  * [Integration tests](#unit-tests)
+  * [End-to-end tests](#end-to-end-tests)
+
+* [Code reviews](#code-reviews)
+
+* [Definition of done](#definition-of-done)
+
+* [Deployment](#deployment)
+
+* [Security auditing](#security-auditing)
+
 ## Licensing
 
 Unless otherwise stated, the ICON Foundation requires open source code. The code must include an MIT license, Apache 2.0, or another license explicitly approved by the ICON Foundation. Businesses should use the Apache 2.0 license. If you don’t know what to choose, pick the MIT license.
@@ -59,7 +90,7 @@ Code documentation lives in the code files, for example above a function. Narrat
 **Examples**
 * [Tensorflow's Python3 implementation of tensorflow::softmax()](https://github.com/tensorflow/tensorflow/blob/v2.9.1/tensorflow/python/ops/nn_ops.py#L3829-L3867)
 
-## Code Formatting
+## Code formatting
 
 Projects should adopt a code format style and adhere to it from project inception to maintain consistency in readability in the codebase. The adopted code format style should be explicitly stated somewhere in the project, such as the CONTRIBUTING.md file.
 
@@ -70,7 +101,7 @@ We recommend using one of the following styles:
 * [AirBnb’ style guide for React](https://airbnb.io/javascript/react/)
 * [PEP-8, the official style guide for Python](https://peps.python.org/pep-0008/)
 
-## Source Code Branching
+## Source code branching
 
 Projects should adhere to a well-formed source code branching pattern. Projects should pull request submission, review, and approval process should be explicitly stated somewhere in the project, such as the CONTRIBUTING.md file.
 
@@ -102,7 +133,7 @@ _Note that the first number in the Pull Request header references the issue numb
 
 ## Versioning
 
-We use [semantic versioning](https://semver.org) and expect all releases to be tagged.
+We use [semantic versioning](https://semver.org) and expect all releases to be tagged. See [version bumps](#version-bumps) for more information on how we do versioning.
 
 We sometimes use pre-release labels to indicate that a version is unstable and might not satisfy the intended compatibility requirements. The pre-release labels we use include:
 
@@ -234,7 +265,15 @@ Code changes should be as small and as simple as possible. The reviewer should c
 
 Reviewers should aim to improve code quality, but not so prohibitively that it discourages changes from being submitted. If the author can demonstrate that their changes are equally valid to a suggested alternative, the author's preference should be accepted.
 
-## Definition of Done
+#### Speed of code reviews
+
+Code reviews turnaround should be within one business day. Slow code reviews decrease the speed of iteration and the entire project's development cycle.
+
+#### Size of code reviews
+
+Changes should be small and incremental enough that they can be reviewed quickly. 
+
+## Definition of done
 
 Feature addition code should be considered done **only after completing the following:**
 
