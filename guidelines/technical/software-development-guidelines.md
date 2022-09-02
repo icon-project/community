@@ -11,9 +11,9 @@ The purpose of this document is to describe code development best practices and 
 
 ## Table Of Contents
 
-[Licensing](#licensing)
+* [Licensing](#licensing)
 
-[Repository hosting and status](#repository-hosting-and-status)
+* [Repository hosting and status](#repository-hosting-and-status)
 
 * [Documentation](#documentation)
   * [How to write good narrative documentation](#how-to-write-good-narrative-documentation)
