@@ -144,7 +144,7 @@ We sometimes use pre-release labels to indicate that a version is unstable and m
 | Release candidate | -rc | Pre-release phase. Real-world usage. Breaking issues may be expected but are not identified |
 | Release | _No extra notation_ | Release / ready phase. Real-world usage. No further changes expected to this version |
 
-You may find that another versioning convention works better for you. The important thing is that releases are clearly and consistently tagged. 
+You may find that another versioning convention works better for you. The important thing is that releases are clearly and consistently tagged, and that versioning methodology is explicit. One alternative we recommend to consider is [calendar versioning](https://calver.org/).
 
 ## Commit Messages
 
