@@ -103,7 +103,7 @@ We recommend using one of the following styles:
 
 ## Source code branching
 
-Projects should adhere to a well-formed source code branching pattern. Projects should pull request submission, review, and approval process should be explicitly stated somewhere in the project, such as the CONTRIBUTING.md file.
+Projects should adhere to a well-formed source code branching pattern. Projects should explicitly state their pull request submission, review, and approval process somewhere in the project, such as the CONTRIBUTING.md file.
 
 We recommend using [Feature Branching](https://martinfowler.com/bliki/FeatureBranch.html). In this pattern, developers should follow these steps when branching:
 1. Create a new Git issue when there is a feature or fix to be written that clearly defines what is needed and why. The Git issue is appropriately labeled, assigned, and given a milestone.
