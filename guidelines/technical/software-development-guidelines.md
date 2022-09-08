@@ -153,7 +153,7 @@ We recommend to squash the commit history of a short-lived branch when merging t
 We adopt our commit message format from [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Commits MUST follow this format because it makes commit history easy to understand.
 
 ```
-<type>(<scope>): <subject>
+<type>(<optional scope>): <subject>
 <BLANK LINE>
 <body>
 <BLANK LINE>
@@ -175,6 +175,10 @@ Commit messages should use the [imperative mood](https://web.mit.edu/course/21/2
 - **revert**: Commit that reverts a previous commit
 - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
 - **test**: Adding missing or correcting existing tests
+
+### Scope
+
+Scope is a section of the codebase, such as a package, as perceived by the person reading the changelog generated from commit messages. The list of supported scopes should be specified by the project.
 
 #### Version bumps
 
