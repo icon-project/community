@@ -176,10 +176,6 @@ Commit messages should use the [imperative mood](https://web.mit.edu/course/21/2
 - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
 - **test**: Adding missing or correcting existing tests
 
-### Scope
-
-Scope is a section of the codebase, such as a package, as perceived by the person reading the changelog generated from commit messages. The list of supported scopes should be specified by the project.
-
 #### Version bumps
 
 Breaking changes append `!` to the type.
@@ -188,6 +184,10 @@ A release should only increase either SemVer major, SemVer minor, or SemVer patc
 A release that contains one or more breaking changes increases SemVer major.<br>
 A release that contains one or more `feat` commits increases SemVer minor.<br>
 A release that contains one or more `fix` commits increases SemVer patch.
+
+### Scope
+
+Scope is a section of the codebase, such as a package, as perceived by the person reading the changelog generated from commit messages. The list of supported scopes should be specified by the project.
 
 ### Body
 
