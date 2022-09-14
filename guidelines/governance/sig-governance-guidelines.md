@@ -1,4 +1,4 @@
-# SIG Governance Guidelines
+# Special Interest Group Governance Guidelines
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
       NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
@@ -44,10 +44,11 @@ The technical lead MUST do the following:
 
 - Triage issues
 - Optimize software development lifecycle, process, and workflow
+- Resolve cross-project technical issues
 
 ## Project management
 
-Each SIG project MUST define the rationale, methodology, and public observability for
+The SIG MUST define the rationale, methodology, and public observability for
 
 - how priorities are determined, staffed, managed, and accepted.
 - how target release dates are determined
