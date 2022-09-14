@@ -36,6 +36,10 @@ Writing documentation
 
 Issue triaging involves organizing, prioritizing, categorizing, and labeling a project's backlog of issues and pull requests. Regularly triaging increases engagement, transparency, and productivity.
 
+#### Creating TODOs
+
+Issues can be created directly in files via TODOs. For more information, see [todos-to-issues](todos-to-issues.md).
+
 {/* 
   TODO: Create a page on issue triaging.
   assignees: CyrusVorwald-ICON
