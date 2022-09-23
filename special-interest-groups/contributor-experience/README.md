@@ -1,5 +1,5 @@
 
-# SIG Interoperability
+# SIG Contributor Experience
 
 ## Goals
 

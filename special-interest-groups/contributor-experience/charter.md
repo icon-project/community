@@ -1,8 +1,8 @@
-# SIG Interoperability Charter
+# SIG Contributor Experience Charter
 
 | Status        | (Proposed)       |
 :-------------- |:---------------------------------------------------- |
-| **PR Link**   | [PR 56](https://github.com/icon-project/community/pull/61)|
+| **PR Link**   | [PR 61](https://github.com/icon-project/community/pull/61)|
 | **Author(s)** | Eric Solomon (eric@icon.foundation) |
 | **Sponsor**   | Eric Solomon (eric@icon.foundation) |
 | **Updated**   | 23 September 2022 |
