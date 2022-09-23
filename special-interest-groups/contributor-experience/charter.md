@@ -2,7 +2,7 @@
 
 | Status        | (Proposed)       |
 :-------------- |:---------------------------------------------------- |
-| **PR Link**   | [PR 56](https://github.com/icon-project/community/pull/60)|
+| **PR Link**   | [PR 56](https://github.com/icon-project/community/pull/61)|
 | **Author(s)** | Eric Solomon (eric@icon.foundation) |
 | **Sponsor**   | Eric Solomon (eric@icon.foundation) |
 | **Updated**   | 23 September 2022 |
