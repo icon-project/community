@@ -1,4 +1,4 @@
-# SIG Interoperability Charter
+# SIG Docs Charter
 
 | Status        | (Proposed)       |
 :-------------- |:---------------------------------------------------- |
