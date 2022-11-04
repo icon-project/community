@@ -7,7 +7,13 @@ Developing and sustaining a healthy community of contributors is critical to sca
 
 ## Meetings
 
-{/* TODO: List public meetings here assignees: han-so1omon */}
+**Technical Community Update Meeting**
+
+First or second week of every quarter
+
+[Hosted here](https://discord.com/channels/880651922682560582/1007680403861164072)
+
+[Meeting Archives here](https://www.youtube.com/playlist?list=PLV_LTOH3l7ItpWoTljqR_P1_eBSS6js_S)
 
 ## Projects
 
@@ -19,7 +25,4 @@ None for this SIG
 
 ## Contact
 
-{/* 
-  TODO: List comms channels here
-  assignees: han-so1omon
-*/}
+[ICON Discord #dev_discussion](https://discord.com/channels/880651922682560582/898256107653464095)
