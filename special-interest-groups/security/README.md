@@ -1,5 +1,5 @@
 
-# SIG Interoperability
+# SIG Security
 
 ## Goals
 

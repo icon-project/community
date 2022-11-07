@@ -1,4 +1,4 @@
-# SIG Interoperability Charter
+# SIG Security Charter
 
 | Status        | (Proposed)       |
 :-------------- |:---------------------------------------------------- |
