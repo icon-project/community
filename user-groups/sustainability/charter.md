@@ -31,15 +31,31 @@ We aim to promote both competition and collaboration. We recognize that there ar
 
 #### Monetization Strategies
 
+- Discuss and establish strategies for product and service monetization
+- Document boilerplate strategies with write-ups that are up-to-date with the modern ecosystem and referenceable by all companies in their business strategy cycle
+- Facilitate connections for revenue flow between organizations in the ecosystem 
+
 #### Ecosystem Niches Registry
+
+- Track & document state of niches in the ICON ecosystem, as they relate to useful service offerings and typical niches for the modern web3 industry
+- Facilitate the filling of available ecosystem niches
+- Support the competitive and collaborative processes to grow the strength of documented ecosystem niches
 
 #### Case Studies on Business Practices
 
+- Organize group-led case studies on business practices for organizations in the ecosystem
+- Share successes and failures of ecosystem projects for the purpose of learning and creating robust, sustainable projects
+
 #### Open Funding Sources
+
+- Organize and collaborate on the development of open funding sources within the ICON ecosystem
+  - Including [CPS] development
+- Collaborate to decide upon purpose and function of open funding sources
+- Provide template structure for open funding sources, including smart contracts, frontend, and backend code as appropriate
 
 ### Out of scope
 
-- Internal business development strategies
+- Business development strategies internal to an organization
 - Deciding which businesses are fit or unfit to participate in the ICON ecosystem
 - Onboarding contributors to projects within the [icon-projectGithub Organization](github.com/icon-project)
 - Establishing best practices for software development for software products managed by this User Group, such as [CPS](https://github.com/icon-community/CPS)
@@ -57,3 +73,6 @@ UG chair & technical lead: [Eric Solomon](https://github.com/han-so1omon)
 [icon-community/CPS](https://github.com/icon-community/CPS) - Contribution Proposal System for ICON Main Network
 
 [icon-community/cps_java_contracts](https://github.com/icon-community/cps_java_contracts) - ICON-Java smart contracts for CPS
+
+
+[CPS]: (https://github.com/icon-community/cps)
