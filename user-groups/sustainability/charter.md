@@ -57,7 +57,7 @@ We aim to promote both competition and collaboration. We recognize that there ar
 
 - Business development strategies internal to an organization
 - Deciding which businesses are fit or unfit to participate in the ICON ecosystem
-- Onboarding contributors to projects within the [icon-projectGithub Organization](github.com/icon-project)
+- Onboarding contributors to projects within the [icon-project Github Organization](github.com/icon-project)
 - Establishing best practices for software development for software products managed by this User Group, such as [CPS](https://github.com/icon-community/CPS)
 
 ## Governance
