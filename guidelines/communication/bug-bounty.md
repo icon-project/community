@@ -1,5 +1,5 @@
 ## Program Overview
-ICON is an open-source layer 1 delegated proof-of-stake (DPoS) blockchain and smart contract platform focused on connecting unique blockchains and their respective communities. ICON’s Blockchain Transmission Protocol (BTP) is a trustless and chain-agnostic interoperability solution that supports generic smart contract calls between connected blockchains. ICON offers a unique high-performance smart contract execution environment powered by the Java Virtual Machine (JVM) that is ideal for developing minimal-latency cross-chain dApps. The ICON blockchain is governed by validators elected through the network’s ICX staking and delegation mechanism.
+The Bug Bounty Program is to find vulnerabilities in the ICON network. The greater the risk of the vulnerabilities, the greater the reward will be sent to those who discover the vulnerabilities. This will lead whitehats to report them to ICON, instead of taking advantage of the bug. It will start with ICON Mainnet and will expand to other applications.
 Bug reporters can register bug reports in Immunefi 
 https://immunefi.com/bounty/icon/
 
@@ -10,7 +10,7 @@ All High and Critical Blockchain/DLT and Smart Contract bug reports require a Pr
 
 ICON requires KYC to be done for all bug bounty hunters submitting a report and wanting a reward. If the entity is an individual, the information needed are Name, Address, Nationality, Birthday, copy of ID card, copy of residence certificate, criminal records and personal relations with politicians. If the entity is a company, business start date, address, country the business base on, copy of business certificate. And some information about people who have over 20% of the company's share. The collection of this information will be done by the ICON project team.
 
-Payouts are handled by the ICON team directly and are denominated in USD. However, payouts are done in ICX. If you disagree with the KYC requirement or you are denied by the KYC process, payouts cannot be done.
+Payouts are handled by the ICON team directly and are denominated in USD. However, payouts are done in ICX. If the reporter disagree with the KYC requirement or you are denied by the KYC process, payouts cannot be done.
 
 Blockchain/DLT
 
@@ -65,7 +65,6 @@ Blockchain/DLT
 |DoS of greater than 10% but less than 30% of validator or miner nodes and does not shut down the network |
 |Underpricing transaction fees relative to computation time | 
 |Trivial minor bugs except the one related to consensus, safety, liveness, consistency |
-
 
 
 
