@@ -59,7 +59,7 @@ The steps of the proposed solution should be laid out in full sentences and shou
 
 Each proposed solution should have an associated architecture diagram. We recommend going through the [C4 model checklist](https://c4model.com/review/) when creating a diagram.
 
-We do not specify diagram tooling or notation preferences, as that is left to the architect. However, in accordance with the [C4 model](https://c4model.com/#CoreDiagrams), we do require that diagrams follow a common set of abstractions. For more information, see software-design-architecture-diagramming.md
+We do not specify diagram tooling or notation preferences, as that is left to the architect. However, in accordance with the [C4 model](https://c4model.com/#CoreDiagrams), we do require that diagrams follow a common set of abstractions.
 
 ### Comparisons
 
