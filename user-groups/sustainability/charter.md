@@ -74,5 +74,6 @@ UG chair & technical lead: [Eric Solomon](https://github.com/han-so1omon)
 
 [icon-community/cps_java_contracts](https://github.com/icon-community/cps_java_contracts) - ICON-Java smart contracts for CPS
 
+[icon-community/integrate-btp](https://github.com/icon-community/integrate-btp) - Integrate BTP. Guides and some info about participating organizations
 
 [CPS]: (https://github.com/icon-community/cps)
