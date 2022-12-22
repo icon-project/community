@@ -11,7 +11,7 @@ Covers documentation, doc processes, and doc publishing for ICON ecosystem proje
 
 ## Projects
 
-None for this SIG
+- [devportal] - Developer docs for ICON network. Found at https://docs.icon.community
 
 ## Contributing
 
@@ -19,7 +19,9 @@ None for this SIG
 
 ## Contact
 
-{/* 
-  TODO: List comms channels here
-  assignees: han-so1omon
-*/}
+[ICON Discord #dev_general](https://discord.com/channels/880651922682560582/898256107653464095) - Shared channel for technical discussions. Requires *Developer* role
+
+[ICON Discord #dev_support](https://discord.com/channels/880651922682560582/888476176237080687) - Shared channel for technical support. Requires *Developer* role
+
+
+[devportal]: https://github.com/icon-project/devportal
