@@ -31,7 +31,6 @@ This includes collaborations with SIG Contributor Experience for programs such a
 
 ## Contact
 
-{/* 
-  TODO: List comms channels here
-  assignees: han-so1omon
-*/}
+[ICON Discord #b2b_general](https://discord.com/channels/880651922682560582/1043189484193316977) - Discussions about business to business interactions. Requires *Business* role
+
+[ICON Discord #ug_sustainability](https://discord.com/channels/880651922682560582/1043189700103516180) - General discussions for the Sustainability User Group. Requires *Business* role

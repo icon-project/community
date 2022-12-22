@@ -25,4 +25,4 @@ None for this SIG
 
 ## Contact
 
-[ICON Discord #dev_discussion](https://discord.com/channels/880651922682560582/898256107653464095)
+[ICON Discord #dev_discussion](https://discord.com/channels/880651922682560582/898256107653464095). Requires *Developer* role
