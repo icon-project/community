@@ -41,11 +41,15 @@ These trackers are running in 2 regions with both dev and prod environments allo
 
 ## Governance
 
-This SIG adheres to the [SIG governance guidelines](/guidelines/governance/sig-governance-guidelines.md). Regular meetings will be planned on a monthly basis to engage with the community for planning / feedback purposes. 
+This SIG adheres to the [SIG governance guidelines](/guidelines/governance/sig-governance-guidelines.md). 
+
+Regular meetings will be planned on a monthly / quarterly basis to engage with the community for planning / feedback purposes. Meeting agendas will be made public and can be contributed to via PR in the [meetings](meetings) directory. Announcements for actual meeting dates / times will be made on [twitter](https://twitter.com/sudoblockio), Discord, and the [ICON Community Forum](https://forum.icon.community/). 
 
 ## Contacts
 
 SIG chair & technical lead: [Rob Cannon](https://github.com/robcxyz)
+
+Tracker discussions take place on a private discord channel. To gain access to the channel, please raise a support ticket in the [official ICON discord support channel](https://discord.gg/umYWjqz8mF).
 
 ## Projects
 
