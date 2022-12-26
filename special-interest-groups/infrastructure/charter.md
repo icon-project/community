@@ -54,6 +54,8 @@ Tracker discussions take place on a private discord channel. To gain access to t
 ## Projects
 
 - [icon-tracker](https://github.com/sudoblockio/icon-tracker)
-  - Project lead: [Rob Cannon](https://github.com/robcxyz)
-  - All associated repos are linked to from that repo 
-  - Backend infrastructure as code is private with efforts being made to allow users to run smaller versions of the tracker locally. 
+  - All associated repos are linked to from that repo in the [planning section](https://github.com/sudoblockio/icon-tracker/tree/main/planning)
+  - Production infrastructure as code is private 
+  - Docker compose version of the tracker can be used for development and local deployments 
+- ICON Community Endpoints 
+  - Production infrastructure as code is private
