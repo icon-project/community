@@ -61,7 +61,8 @@ This SIG adheres to the [SIG governance guidelines](/guidelines/governance/sig-g
 
 ## Contacts
 
-SIG chair & technical lead: [Eric Solomon](https://github.com/han-so1omon)
+SIG chair: [Eric Solomon](https://github.com/han-so1omon), [Cyrus Vorwald](https://github.com/CyrusVorwald)
+Technical lead: [Eric Solomon](https://github.com/han-so1omon)
 
 ## Projects
 
