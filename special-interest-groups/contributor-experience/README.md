@@ -9,7 +9,9 @@ Developing and sustaining a healthy community of contributors is critical to sca
 
 **Technical Community Update Meeting**
 
-First or second week of every quarter
+Update report published first Monday of the quarter
+
+Technical Community Meeting held the next week on Wednesday at 1715 UTC
 
 [Hosted here](https://discord.com/channels/880651922682560582/1007680403861164072)
 
@@ -25,4 +27,4 @@ None for this SIG
 
 ## Contact
 
-[ICON Discord #dev_discussion](https://discord.com/channels/880651922682560582/898256107653464095)
+[ICON Discord #dev_discussion](https://discord.com/channels/880651922682560582/898256107653464095). Requires *Developer* role
