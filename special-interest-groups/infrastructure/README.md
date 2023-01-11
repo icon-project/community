@@ -7,7 +7,11 @@ We build and maintain the community RPC endpoints and tracker.
 
 ## Meetings
 
-TBD how meetings will be announced and planned starting Jan 2023. 
+- Meetings kept to ~30 min
+  - Agenda items will be ranked in importance 
+  - Items not addressed will be left for later date 
+- Frequency 
+  - 1 per quarter / 1 month depending on agendas
 
 ## Projects
 
