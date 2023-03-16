@@ -23,8 +23,6 @@ This includes collaborations with SIG Contributor Experience for programs such a
 
 [icon-community/cps_java_contracts](https://github.com/icon-community/cps_java_contracts) - ICON-Java smart contracts for CPS
 
-[icon-community/integrate-btp](https://github.com/icon-community/integrate-btp) - Integrate BTP. Guides and some info about participating organizations
-
 ## Contributing
 
 [CONTRIBUTING.md](../../CONTRIBUTING.md)
