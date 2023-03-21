@@ -74,4 +74,6 @@ UG chair & technical lead: [Eric Solomon](https://github.com/han-so1omon)
 
 [icon-community/cps_java_contracts](https://github.com/icon-community/cps_java_contracts) - ICON-Java smart contracts for CPS
 
+[icon-community/integrate-xcall](https://github.com/icon-community/integrate-xcall) - Track and plan the integrations and usage of xCall by developers and users
+
 [CPS]: (https://github.com/icon-community/cps)
