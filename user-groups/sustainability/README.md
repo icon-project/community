@@ -15,13 +15,19 @@ This includes collaborations with SIG Contributor Experience for programs such a
 
 ## Meetings
 
-{/* TODO: List public meetings here assignees: han-so1omon */}
+CPS Monthly meeting
+- Last Monday of the month at 1715 UTC on [ICON Discord](https://discord.gg/b5QvCXJjJM)
+
+xCall Integration monthly meeting
+- Datetime TBD
 
 ## Projects
 
 [icon-community/CPS](https://github.com/icon-community/CPS) - Contribution Proposal System for ICON Main Network
 
 [icon-community/cps_java_contracts](https://github.com/icon-community/cps_java_contracts) - ICON-Java smart contracts for CPS
+
+[icon-community/integrate-xcall](https://github.com/icon-community/integrate-xcall) - Track and plan the integrations and usage of xCall by developers and users
 
 ## Contributing
 
