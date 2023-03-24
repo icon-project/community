@@ -1,6 +1,6 @@
 # Technical Community Update Meeting Q2 2023
 
-This meeting is hosted by SIG Contributor Experience
+This meeting is hosted by SIG Contributor Experience on Wednesday, April 12 at 1715 UTC in the ICON Discord server
 
 ## Agenda
 
