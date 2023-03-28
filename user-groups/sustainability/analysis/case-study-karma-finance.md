@@ -49,4 +49,4 @@ This document is intended to be distributed to Protokol 7 and the CPS voters so 
 
 ## Notes
 
-N/A
+[Comparison Study - Karma Finance vs Node Butler](./comparison-karma-finance-vs-node-butler.md)
