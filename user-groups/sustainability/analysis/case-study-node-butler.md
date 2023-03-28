@@ -51,4 +51,4 @@ This document is intended to be distributed to Espanicon and the CPS voters so t
 
 ## Notes
 
-N/A
+[Comparison Study - Karma Finance vs Node Butler](./comparison-karma-finance-vs-node-butler.md)

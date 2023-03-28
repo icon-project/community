@@ -37,3 +37,8 @@ A [weighted decision matrix](https://airfocus.com/blog/weighted-decision-matrix-
 
 ---
 **From this process, we see that Karma Finance is the most valuable, then Node Butler. The total possible score is 90. By heuristically stating that any project over 60 has value, both projects are shown to have value**
+
+## Notes
+
+[Case Study - Karma Finance](./case-study-karma-finance.md)
+[Case Study - Node Butler](./case-study-node-butler.md)
