@@ -41,4 +41,5 @@ A [weighted decision matrix](https://airfocus.com/blog/weighted-decision-matrix-
 ## Notes
 
 [Case Study - Karma Finance](./case-study-karma-finance.md)
+
 [Case Study - Node Butler](./case-study-node-butler.md)
