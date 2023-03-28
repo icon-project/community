@@ -28,15 +28,15 @@ A [weighted decision matrix](https://airfocus.com/blog/weighted-decision-matrix-
 
 | Criteria                | Criteria Weight | Karma Finance | Node Butler |
 | ----------------------- | --------------- | ------------- | ----------- |
-| Impact on the Ecosystem | 3               | 5             | 2           |
+| Impact on the Ecosystem | 5               | 5             | 2           |
 | Feasibility             | 5               | 4             | 3           |
 | Cost                    | 5               | 4             | 5           |
 | Timeframe               | 3               | 4             | 5           |
 | Innovation              | 2               | 5             | 3           |
-| Total Score             | \---           | 77            | 67          |
+| Total Score             | \---           | 87            | 71          |
 
 ---
-**From this process, we see that Karma Finance is the most valuable, then Node Butler. The total possible score is 90. By heuristically stating that any project over 60 has value, both projects are shown to have value**
+**From this process, we see that Karma Finance is the most valuable, then Node Butler. The total possible score is 100. By heuristically stating that any project over 65 has value, both projects are shown to have value**
 
 ## Notes
 
