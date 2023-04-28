@@ -3,7 +3,7 @@
 
 ## Goals
 
-We build and maintain the community RPC endpoints and tracker.
+We build and maintain the community RPC endpoints, tracker, and related tools. 
 
 ## Meetings
 
