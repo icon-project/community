@@ -77,3 +77,15 @@ UG chair & technical lead: [Eric Solomon](https://github.com/han-so1omon)
 [icon-community/integrate-xcall](https://github.com/icon-community/integrate-xcall) - Track and plan the integrations and usage of xCall by developers and users
 
 [CPS]: (https://github.com/icon-community/cps)
+
+## Contributing Organizations
+
+*Partial list of organizations that contribute to the ICON Sustainability User Group*
+
+- [Espanicon](http://espanicon.team/)
+- [Hugobyte](https://hugobyte.com)
+- [Lydia Labs](https://lydialabs.xyz/)
+- [Protokol 7](https://protokol7.com/)
+- [Venture23](https://ibriz.ai/)
+- [Ingenierias Lentas](https://github.com/ingenierias-lentas)
+- [with ICONists](https://github.com/with-ICONists/pillars/wiki)
