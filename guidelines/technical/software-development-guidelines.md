@@ -51,7 +51,7 @@ Code repositories should be hosted on Github. Issue tracking must be made public
 ## Documentation
 
 All of the following must be documented:
-* Classes, constructors, and functions
+* Public classes, constructors, and functions
   * Describe inputs/arguments
   * Describe outputs/returns
   * Brief narrative description
